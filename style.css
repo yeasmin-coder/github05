@@ -1,0 +1,87 @@
+.blog_post{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    padding: 10px;
+    margin: 10px auto;
+    display: inline-block;
+    font-weight: 300;
+    border: solid 1.5px grey;
+    font-size: 10px;
+    text-align: justify;
+}
+
+.parent{
+    margin: auto;
+    width: fit-content;
+
+}
+
+.blog_post img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blog_post a{
+    font-size: 16px;
+    text-decoration: none;
+    color: cadetblue;
+}
+p
+.blog_post h1{
+    font-size: 25px;
+    font-weight: 350;
+
+}
+
+.blog_post h1:hover {
+    color: rgb(red, green, blue);
+    text-decoration: underline;
+
+
+}
+
+.blog_post p{
+    font-size: 20px;
+    color: orangered;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.blog_post h2{
+    font-size: 15px;
+    font-weight: 150;
+
+}
+
+.blog_post button{
+    background-color: wheat;
+    color: rgb(red, green, blue);
+    text-decoration: none;
+    width: 150;
+    text-align: center;
+    height: 50px;
+    display: block;
+    line-height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+    transition: 0.4s cubic-bezier(0.23, 1, 0.320, 1);
+    font-weight: 150;
+}
+
+button.hover{
+    background-color:rgb(red, green, blue);
+    color: antiquewhite;
+    border-radius: 50px;
+    width: 150px;
+
+
+}
+
+
+.blog_post button{
+    float: right;
+    position: unset;
+
+}
